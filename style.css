@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.fullscreen {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: table;
+}
+
+.main {
+  display: table-cell;
+}
+
+.time {
+  font-family: 'VT323';
+  font-size: 3em;
+  margin-top: -175px;
+}
+
+.minute {
+  margin-right: -10px;
+}
+
+.second {
+  margin-left: -10px;
+}
+
+.setter {
+  font-family: 'VT323';
+  font-size: 1.5em;
+  display: table-cell;
+}
+
+.break-up, .break-down, .session-up, .session-down {
+  cursor: pointer;
+}
+
+.break-down, .session-down {
+  font-size: 10px;
+}
+
+.controls {
+  margin-top: 130px;
+  font-size: 20px;
+}
+
+.controls > span {
+  cursor: pointer;
+}
+
+.pause {
+  margin: 0 10px;
+}
